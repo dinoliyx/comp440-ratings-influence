@@ -68,9 +68,9 @@ Code: `my_recommender.py`, `part4_recommender.py`. Figure: `figures/part4_recomm
 
 ## Part 5. Reflection
 
-**Where this shows up in data you have already handled, or in an interface you use, one sentence:** XXXX
+**Where this shows up in data you have already handled, or in an interface you use, one sentence:** I think it could in the popular on Netflix since it's alos talking about popularity and people's watch counts definitely determine how the algorithm reccomend them.
 
-**A moment Claude was wrong or overconfident, or a judgment you kept for yourself, one sentence:** XXXX
+**A moment Claude was wrong or overconfident, or a judgment you kept for yourself, one sentence:** Claude wasn't really overconfident this time, it gave me fair advise when my answer ddin't match the question.
 
 ## Follow-ups
 
