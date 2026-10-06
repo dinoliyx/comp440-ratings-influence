@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*22 user turns. Tool outputs and reasoning omitted.*
+*23 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -321,5 +321,13 @@ You'll need to put a number on "a little more." Say artist A has twice as many d
 
 **User:**
 1.2
+
+**Claude:**
+So on the counts side, every doubling of downloads gives 1.2 times the weight. One problem comes from that: an artist with 0 downloads gets 0 weight on the counts side. At `social_influence` 1 it could then never be picked, and when none of the five shown has a download yet, there's no weight at all. You said an artist with no downloads can be picked.
+
+On the counts side, what should an artist with 0 downloads get?
+
+**User:**
+every one +1 so everyone has qn equal chacne to be picked
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
