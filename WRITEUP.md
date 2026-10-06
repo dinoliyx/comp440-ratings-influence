@@ -42,19 +42,19 @@ Code: `recommender.py`, `part2_recommender.py`. Figure: `figures/part2_strip.png
 Code: `my_choice.py`, `hand_check.py`, `part3_influence.py`. Figures: `figures/part3_gini.png`,
 `figures/part3_unpredictability.png`.
 
-**Your rule in your words:** XXXX
+**Your rule in your words:** My own rule is that people can be influenced by the counts but not too much, every artist should have an equal chance to be presented.
 
-**Hand check, before the table: which artist your rule should favor, and by a little or a lot:** XXXX
+**Hand check, before the table: which artist your rule should favor, and by a little or a lot:** bruno mars, a little bit
 
-**Hand check: whether the table matched what you said:** XXXX
+**Hand check: whether the table matched what you said:** yes
 
-**The shape you expect the two curves to have, as you told Claude before the run:** XXXX
+**The shape you expect the two curves to have, as you told Claude before the run:** the more social influence, more unqeual and unpredictable
 
-**What you changed in your rule, at the hand check or after the run, or "nothing":** XXXX
+**What you changed in your rule, at the hand check or after the run, or "nothing":** nothing
 
-**What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** XXXX
+**What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** the gini index decreased with an rise of social influence. The unpredictability increases with a rise of social influence. different direction
 
-**Revisited: which of your Part 0 predictions you would now change, and why:** XXXX
+**Revisited: which of your Part 0 predictions you would now change, and why:** I dont want to change
 
 ## Part 4. Your recommender
 

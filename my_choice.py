@@ -6,6 +6,8 @@ shows you the code. Then `uv run python hand_check.py` shows each step of your r
 two-artist case, so you can say whether each step does what you meant.
 """
 
+import math
+
 from artists import TRUE_POPULARITY
 from choose import normalize, step
 
@@ -23,4 +25,14 @@ def my_choice(shown, counts, social_influence):
     TRUE_POPULARITY, which gives each artist its hidden true popularity. `step` labels each
     stage of the rule, so that hand_check.py can show it.
     """
-    raise NotImplementedError("Part 3: design your rule with Claude first")
+    # Each doubling of (downloads + 1) gives 1.2 times the weight: weight = (downloads + 1) ** k,
+    # where 2 ** k = 1.2. Position on the list plays no part.
+    k = math.log2(1.2)
+    weights = step("count weights: (downloads + 1) to the power k, so double gives 1.2 times",
+                   [(counts.get(artist, 0) + 1) ** k for artist in shown])
+    social = step("social share: the count weights scaled to sum to 1", normalize(weights))
+    taste = step("taste share: true popularity scaled to sum to 1",
+                 normalize([TRUE_POPULARITY[artist] for artist in shown]))
+    return step("chance: social_influence of the social share plus the rest of the taste share",
+                [social_influence * s + (1 - social_influence) * t
+                 for s, t in zip(social, taste)])
