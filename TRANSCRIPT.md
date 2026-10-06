@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*29 user turns. Tool outputs and reasoning omitted.*
+*30 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -435,5 +435,38 @@ the more social influence, more unqeual and unpredictable
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Bash` — Run the Part 3 social influence sweep
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into "The shape you expect" slot: the more social influence, more unqeual and unpredictable
+
+Here's the run:
+
+```
+The independent control (random_five, social influence 0), then top_five at each level; 300 worlds per row:
+                       Gini  unpredictability  fidelity  true best wins  accidental hits
+independent control    0.277             0.010     0.976           0.590            0.000
+social influence 0.0   0.638             0.086     0.503           0.570            0.000
+social influence 0.25  0.628             0.092     0.433           0.513            0.000
+social influence 0.5   0.613             0.099     0.345           0.480            0.000
+social influence 0.75  0.585             0.101     0.277           0.363            0.000
+social influence 1.0   0.566             0.103     0.031           0.067            0.370
+
+Saved figures/part3_gini.png and figures/part3_unpredictability.png
+
+Your Part 0 predictions, as WRITEUP.md has them:
+  1. Once people can see the counts, which artist wins most often?
+      artists with most ownload counts will probably end up with the most downloads in most worlds.
+  2. Does inequality rise or fall with social influence?
+      Ineuqality will rise as people pay more attention to the counts.
+  3. Does the best artist ever lose a world?
+      They don't lose a world.
+  4. Can a recommender lower inequality without lowering fidelity to true taste?
+      I think it can lower inequality without making the outcome true taste less well.
+```
+
+`part3_gini.png` plots Gini against social influence, and `part3_unpredictability.png` plots unpredictability against it. In both, a square marks the independent control.
+
+A question about your rule: at social influence 1, users go by the counts side alone. On that side, how much does an artist's download count change its chance of being picked?
+
+**User:**
+like 100%
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
