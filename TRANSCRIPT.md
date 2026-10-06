@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*39 user turns. Tool outputs and reasoning omitted.*
+*40 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -568,5 +568,23 @@ commit
 
 **Claude:**
 - 🔧 `Bash` — Commit Part 5
+Committed as `Part 5 done`. All the graded parts are finished.
+
+There are some extras if you want them. They're optional and not graded:
+
+- **Part 4:** design your own recommender.
+- **What is shown** (`followup_shown.py`): two markets at the same social influence. One shows the top five in random order, the other sorted by count.
+- **One assumption** (`followup_assumption.py`): change one assumption of the model and see whether the Part 3 conclusion still holds.
+- **More recommenders:** a second and third rule in Part 4's shape, compared.
+- **More worlds:** rerun a part with 1,000 worlds instead of 300.
+
+Do you want any of these, or should we go to submitting?
+
+**User:**
+go to submitting
+
+**Claude:**
+- 🔧 `Skill` — checkpoint
+- 🔧 `Bash` — Run all parts and list what is missing
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
