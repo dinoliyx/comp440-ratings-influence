@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*16 user turns. Tool outputs and reasoning omitted.*
+*17 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -273,5 +273,17 @@ yes
 
 **Claude:**
 - 🔧 `Bash` — Commit Part 2
+Committed as `Part 2 done`. Part 3 is next. You design the choice rule, meaning how a user picks one of the five artists shown to them. A line each is enough:
+
+- Should a user favor artists with more downloads? How strongly?
+- Can an artist with no downloads be picked?
+- Should an artist nearer the top of the list be more likely to be picked?
+- How should `social_influence`, from 0 to 1, set the mix between the counts and the user's own taste?
+
+**User:**
+You can favor the artists with more downloads, but just a little bit not dramatically. An artist with no downloads can be picked. Yes if they are nearer the top of the list, they can be more likely to be picked. social influence be 0.4
+
+**Claude:**
+- 🔧 `Bash` — Read the choice rule files and README Part 3
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
