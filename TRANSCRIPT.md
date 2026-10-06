@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*15 user turns. Tool outputs and reasoning omitted.*
+*16 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -264,5 +264,14 @@ when the top five are shown, people tends to give them much more shares of the m
 **Claude:**
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the Part 2 "What changed" slot: when the top five are shown, people tends to give them much more shares of the market compared to their true popularity.
+
+Part 2 is complete: part2_recommender.py ran, figures/part2_strip.png drawn, and your words are in "The capabilities and limitations of `top_five`", "What Claude corrected" and "What changed against Part 1". Ready to commit?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Commit Part 2
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
