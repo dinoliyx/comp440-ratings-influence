@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*5 user turns. Tool outputs and reasoning omitted.*
+*6 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -92,5 +92,39 @@ You're on Part 0. A word or a line each is enough, and a guess is fine:
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 Your Part 0 predictions are committed as `Part 0 predictions`, word for word with your typos kept, and they're now locked. Part 1 is next, where users choose on their own:
 - 🔧 `Bash` — Run Part 1 simulation
+```
+random_five, social influence 0, 300 worlds:
+  mean Gini          0.277   inequality within a world
+  unpredictability   0.010   how much an artist's share differs between worlds
+  fidelity           0.976   rank correlation of shares with true popularity
+  true best wins     0.590   fraction of worlds the Beatles finish strictly first
+  accidental hits    0.000   fraction of worlds won by true popularity 30 or less
+
+World 0, each artist's share of the world's downloads:
+  Beatles        0.142
+  Taylor Swift   0.159
+  Mariah Carey   0.108
+  Drake          0.115
+  Katy Perry     0.134
+  Bruno Mars     0.084
+  Justin Bieber  0.102
+  Cher           0.047
+  Bon Jovi       0.041
+  Miles Davis    0.040
+  John Coltrane  0.028
+
+Saved figures/part1_strip.png
+```
+
+The strip plot `figures/part1_strip.png` has one column per artist and one dot per world. The diamond in each column marks that artist's true share.
+
+In your own words, what do Gini and unpredictability each show? One sentence is enough. "The measures" section of the README defines both.
+
+**User:**
+Gini shows the inequality index among the shares of the market by different artist. Unpredictability shows the randomness of the market.
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
