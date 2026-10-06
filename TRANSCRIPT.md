@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*41 user turns. Tool outputs and reasoning omitted.*
+*42 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -629,5 +629,18 @@ yes
 
 **Claude:**
 - 🔧 `Bash` — Push commits to GitHub
+Your work is pushed to https://github.com/dinoliyx/comp440-ratings-influence.
+
+Now fill in the Work Submission Form. Select "activity", then paste your repo's GitHub URL (the link above) into the textbox:
+
+    https://forms.gle/mgKcnqzTGxNaGvteA
+
+Have you submitted the form?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Refresh transcript, commit, and push
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
