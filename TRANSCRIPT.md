@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*17 user turns. Tool outputs and reasoning omitted.*
+*18 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -285,5 +285,13 @@ You can favor the artists with more downloads, but just a little bit not dramati
 
 **Claude:**
 - 🔧 `Bash` — Read the choice rule files and README Part 3
+Thanks. Three of your answers still leave the code open, so I'll ask about them one at a time.
+
+First, social influence. The Part 3 run sweeps it from 0 to 1 (0, 0.25, 0.5, 0.75, 1), so the rule can't fix it at 0.4. It has to say what happens at each level. At 0, users go by their own taste alone, and at 1 they go by the counts alone.
+
+As `social_influence` goes from 0 to 1, should the weight on the counts grow steadily, in proportion, or should it work some other way?
+
+**User:**
+.5then
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
