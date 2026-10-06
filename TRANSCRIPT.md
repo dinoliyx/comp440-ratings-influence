@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*24 user turns. Tool outputs and reasoning omitted.*
+*25 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -342,5 +342,30 @@ actually whether if they can the list does not affect their chance to be picked
 Position on the list won't matter, then. Here is your rule in `my_choice.py`:
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/my_choice.py
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/my_choice.py
+```python
+    # Each doubling of (downloads + 1) gives 1.2 times the weight: weight = (downloads + 1) ** k,
+    # where 2 ** k = 1.2. Position on the list plays no part.
+    k = math.log2(1.2)
+    weights = step("count weights: (downloads + 1) to the power k, so double gives 1.2 times",
+                   [(counts.get(artist, 0) + 1) ** k for artist in shown])
+    social = step("social share: the count weights scaled to sum to 1", normalize(weights))
+    taste = step("taste share: true popularity scaled to sum to 1",
+                 normalize([TRUE_POPULARITY[artist] for artist in shown]))
+    return step("chance: social_influence of the social share plus the rest of the taste share",
+                [social_influence * s + (1 - social_influence) * t
+                 for s, t in zip(social, taste)])
+```
+
+Chances have to add up to 1, so I divide each side's weights by their total over the five shown. `normalize()` in `choose.py` does that. Both sides sum to 1, so the mix of the two does too.
+
+Now say the rule in your own words, for the "Your rule in your words" slot. One sentence is enough.
+
+**User:**
+My own rule is that people can be influenced by the counts but not too much, every artist should have an equal chance to be presented.
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Bash` — Print the hand-check case
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
