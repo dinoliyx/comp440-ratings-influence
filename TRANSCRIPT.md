@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*34 user turns. Tool outputs and reasoning omitted.*
+*35 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -502,6 +502,30 @@ In the paper's figures, do Gini and unpredictability go the same direction as in
 
 **User:**
 different direction
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the "What the two curves show against the paper's Figures 1 and 2" slot: the gini index decreased with an rise of social influence. The unpredictability increases with a rise of social influence. different direction
+
+Your Part 0 predictions, as `part3_influence.py` printed them:
+
+```
+Your Part 0 predictions, as WRITEUP.md has them:
+  1. Once people can see the counts, which artist wins most often?
+      artists with most ownload counts will probably end up with the most downloads in most worlds.
+  2. Does inequality rise or fall with social influence?
+      Ineuqality will rise as people pay more attention to the counts.
+  3. Does the best artist ever lose a world?
+      They don't lose a world.
+  4. Can a recommender lower inequality without lowering fidelity to true taste?
+      I think it can lower inequality without making the outcome true taste less well.
+```
+
+Which of these would you now change, and why?
+
+**User:**
+I dont want to change
 
 **Claude:**
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
