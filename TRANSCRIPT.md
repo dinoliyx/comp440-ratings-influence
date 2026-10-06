@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*32 user turns. Tool outputs and reasoning omitted.*
+*33 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -488,5 +488,11 @@ nothing
 **Claude:**
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the "What you changed" slot: nothing
+
+Next, compare your two curves with the paper's Figures 1 and 2. The README links the paper. What do your curves show compared with those figures? Talk about direction, not size. One or two sentences is enough.
+
+**User:**
+the gini index decreased with an rise of social influence. The unpredictability increases with a rise of social influence.
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
