@@ -586,5 +586,6 @@ go to submitting
 **Claude:**
 - 🔧 `Skill` — checkpoint
 - 🔧 `Bash` — Run all parts and list what is missing
+- 🔧 `Bash` — Dump transcript, check status and commit order
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
