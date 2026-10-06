@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*4 user turns. Tool outputs and reasoning omitted.*
+*5 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -71,5 +71,26 @@ Dino
 **Claude:**
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Bash` — Fill name and date, then commit
+Setup is done. `WRITEUP.md` now reads `**Name:** Dino` and `**Date:** 2026-10-06`, and that's committed as `Name and date`.
+
+You're on Part 0. A word or a line each is enough, and a guess is fine:
+
+1. Once people can see the download counts, which artist ends up with the most downloads in most worlds?
+2. As people pay more attention to the counts, does inequality between the artists rise or fall?
+3. Does the best artist (true popularity 100) ever lose a world?
+4. Can a recommender rule lower inequality without making the outcome track true taste less well?
+
+**User:**
+1. artists with most ownload counts will probably end up with the most downloads in most worlds. 2. Ineuqality will rise as people pay more attention to the counts. 3. They don't lose a world. 4.I think it can lower inequality without making the outcome true taste less well.
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Bash` — Commit Part 0 predictions
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+Your Part 0 predictions are committed as `Part 0 predictions`, word for word with your typos kept, and they're now locked. Part 1 is next, where users choose on their own:
+- 🔧 `Bash` — Run Part 1 simulation
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
