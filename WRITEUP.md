@@ -23,9 +23,9 @@ Answered before anything runs. Claude writes them in as you said them, and they 
 
 Code: `part1_independent.py`. Figure: `figures/part1_strip.png`.
 
-**What Gini and unpredictability each show, in your own words:** XXXX
+**What Gini and unpredictability each show, in your own words:** Gini shows the inequality index among the shares of the market by different artist. Unpredictability shows the randomness of the market.
 
-**What the figure shows, one sentence:** XXXX
+**What the figure shows, one sentence:** part1_strip plot shows that despite variance, most worlds are consistent with the true popularity.
 
 ## Part 2. The recommender
 
