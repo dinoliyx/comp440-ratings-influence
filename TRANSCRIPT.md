@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*40 user turns. Tool outputs and reasoning omitted.*
+*41 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -587,5 +587,47 @@ go to submitting
 - 🔧 `Skill` — checkpoint
 - 🔧 `Bash` — Run all parts and list what is missing
 - 🔧 `Bash` — Dump transcript, check status and commit order
+Here's the full check:
+
+```
+measures.py self-check: passed
+part 1: ran, 2.4 s
+part 2: ran, 2.2 s
+part 3: ran, 11.8 s
+part 4 (optional, not counted): stopped: my_recommender is not written yet: Part 4: describe your rule to Claude first
+follow-ups: optional, and not run here; ask Claude for one if you want it
+
+== what is missing ==
+  part 4 slot, optional, not counted: Your rule in words, before any code
+  part 4 slot, optional, not counted: What you expect it to do to inequality, unpredictability and fidelity, as you told Claude before the run
+  part 4 slot, optional, not counted: What it bought and what it cost, one sentence
+  follow-up slot, not counted: What is shown (`followup_shown.py`): which market moved success further from quality
+  follow-up slot, not counted: One assumption (`followup_assumption.py`): the assumption you changed
+  follow-up slot, not counted: One assumption: whether the Part 3 conclusion survived
+  follow-up slot, not counted: Anything else you tried
+  follow-up slot, not counted: Anything else: what it showed
+  nothing, in the parts that count so far.
+
+0 missing in the parts that count so far.
+
+When your work is pushed, submit the form, select "activity", and paste your repo's GitHub URL:
+https://forms.gle/mgKcnqzTGxNaGvteA
+```
+
+The transcript check:
+
+```
+1 session(s) found; this session in TRANSCRIPT.md: yes.
+```
+
+Nothing counted is missing. The only blank slots are the optional Part 4 and follow-up ones. Nothing is uncommitted, and `Part 0 predictions` comes before every `Part N done`.
+
+Should I push to GitHub?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Push commits to GitHub
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
