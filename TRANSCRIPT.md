@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*9 user turns. Tool outputs and reasoning omitted.*
+*10 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -157,5 +157,42 @@ yes
 
 **Claude:**
 - 🔧 `Bash` — Commit Part 1 and show recommender.py
+Committed as `Part 1 done`. Part 2 is about the recommender, and here's `recommender.py`:
+
+```python
+def top_five(counts, rng):
+    """The shipped recommender: the five most downloaded artists, most downloaded first.
+
+    `counts` lists only artists with a download, in the order of their first download, and
+    ties keep that order. Until five artists have a download, random artists fill the list.
+    It shows the real download counts with the artists, so it returns `counts` unchanged.
+    """
+    shown = sorted(counts, key=lambda artist: counts[artist], reverse=True)[:NUM_SHOWN]
+    while len(shown) < NUM_SHOWN:
+        artist = ARTISTS[rng.integers(len(ARTISTS))]   # any artist, at random
+        if artist not in shown:
+            shown.append(artist)
+    return shown, counts
+
+
+def random_five(counts, rng):
+    """The control: five different artists picked at random, in random order.
+    ...
+    """
+    shuffled = list(ARTISTS)
+    rng.shuffle(shuffled)
+    return shuffled[:NUM_SHOWN], counts
+```
+
+`random_five` is the control that Part 1 used.
+
+In your words, what are the capabilities and limitations of `top_five`? That is, what does it show each user, and what can it never show? One sentence is enough.
+
+**User:**
+top_five shows user the trend the the most popular artists, but it don't give every artist an equal chance to be presented.
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
