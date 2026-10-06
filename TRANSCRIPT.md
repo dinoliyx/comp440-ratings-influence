@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*11 user turns. Tool outputs and reasoning omitted.*
+*12 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -210,5 +210,31 @@ nothing
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Bash` — Run Part 2 simulation
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the "What Claude corrected" slot: nothing
+
+Here's the Part 2 run:
+
+```
+The users are the same as in Part 1: they ignore the download counts and pick by true
+popularity alone. Only the artists they are shown changed.
+
+top_five, social influence 0, 300 worlds:
+  mean Gini          0.638   inequality within a world
+  unpredictability   0.086   how much an artist's share differs between worlds
+  fidelity           0.503   rank correlation of shares with true popularity
+  true best wins     0.570   fraction of worlds the Beatles finish strictly first
+  accidental hits    0.000   fraction of worlds won by true popularity 30 or less
+
+Artists with any download in world 0: 5 of 11
+
+Saved figures/part2_strip.png
+```
+
+The new figure is `figures/part2_strip.png`, laid out like Part 1's.
+
+What changed compared with Part 1? One sentence is enough.
+
+**User:**
+when the top five are shown, people tends to overestimate the true popularity of the artists.
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
