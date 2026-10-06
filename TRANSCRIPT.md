@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*37 user turns. Tool outputs and reasoning omitted.*
+*38 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -545,6 +545,16 @@ First: where does this show up in data you've already handled, or in an interfac
 
 **User:**
 I think it could in the popular on Netflix since it's alos talking about popularity and people's watch counts definitely determine how the algorithm reccomend them.
+
+**Claude:**
+- 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+- 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the "Where this shows up" slot: I think it could in the popular on Netflix since it's alos talking about popularity and people's watch counts definitely determine how the algorithm reccomend them.
+
+Second: name a moment when Claude was wrong or overconfident, or a judgment you kept for yourself. One sentence is enough.
+
+**User:**
+Claude wasn't really overconfident this time, it gave me fair advise when my answer ddin't match the question.
 
 **Claude:**
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
