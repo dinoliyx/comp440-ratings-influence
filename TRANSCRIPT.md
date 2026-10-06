@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*18 user turns. Tool outputs and reasoning omitted.*
+*19 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -293,5 +293,13 @@ As `social_influence` goes from 0 to 1, should the weight on the counts grow ste
 
 **User:**
 .5then
+
+**Claude:**
+The level isn't something you pick. `social_influence` is an input, and the run tries all five levels in turn. Your rule only has to say what a user does at each of them.
+
+Here's a narrower version of the question. When `social_influence` is 0.5, should a user go half by the counts and half by their own taste?
+
+**User:**
+yes
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
