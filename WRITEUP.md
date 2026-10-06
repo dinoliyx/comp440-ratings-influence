@@ -31,11 +31,11 @@ Code: `part1_independent.py`. Figure: `figures/part1_strip.png`.
 
 Code: `recommender.py`, `part2_recommender.py`. Figure: `figures/part2_strip.png`.
 
-**The capabilities and limitations of `top_five`, in your words:** XXXX
+**The capabilities and limitations of `top_five`, in your words:** top_five shows user the trend the the most popular artists, but it don't give every artist an equal chance to be presented.
 
-**What Claude corrected in your reading, in your words, or "nothing":** XXXX
+**What Claude corrected in your reading, in your words, or "nothing":** nothing
 
-**What changed against Part 1, one sentence:** XXXX
+**What changed against Part 1, one sentence:** when the top five are shown, people tends to give them much more shares of the market compared to their true popularity.
 
 ## Part 3. Social influence
 
