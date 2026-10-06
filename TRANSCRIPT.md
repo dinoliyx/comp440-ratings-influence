@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 59dbd306-08e8-4c51-999c-da8eadb09550 | 2026-10-06T16:34:43.685Z -->
 ## Session `59dbd306` — 2026-10-06 16:34:43
 
-*25 user turns. Tool outputs and reasoning omitted.*
+*26 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 what do I have left?
@@ -367,5 +367,19 @@ My own rule is that people can be influenced by the counts but not too much, eve
 - 🔧 `Edit` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
 - 🔧 `Bash` — Print the hand-check case
 - 🔧 `Read` — /Users/dinoli/Desktop/COMP440/Class activities/comp440-ratings-influence/WRITEUP.md
+I wrote this into the "Your rule in your words" slot: My own rule is that people can be influenced by the counts but not too much, every artist should have an equal chance to be presented.
+
+Next is the hand check:
+
+```
+Hand check, at social influence 0.5:
+  Bruno Mars     at the top of the list (position 0), 3 downloads, true popularity 50
+  Justin Bieber  below it (position 1), no downloads, true popularity 50
+```
+
+In this case, which artist should your rule favor, and by a little or a lot? One sentence is enough.
+
+**User:**
+bruno mars
 
 <!-- end-session: 59dbd306-08e8-4c51-999c-da8eadb09550 -->
