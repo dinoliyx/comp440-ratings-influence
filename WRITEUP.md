@@ -11,13 +11,13 @@ answer; the follow-up slots at the end are optional.
 
 Answered before anything runs. Claude writes them in as you said them, and they stay as written.
 
-**1. Once people can see the counts, which artist wins most often?** XXXX
+**1. Once people can see the counts, which artist wins most often?** artists with most ownload counts will probably end up with the most downloads in most worlds.
 
-**2. Does inequality rise or fall with social influence?** XXXX
+**2. Does inequality rise or fall with social influence?** Ineuqality will rise as people pay more attention to the counts.
 
-**3. Does the best artist ever lose a world?** XXXX
+**3. Does the best artist ever lose a world?** They don't lose a world.
 
-**4. Can a recommender lower inequality without lowering fidelity to true taste?** XXXX
+**4. Can a recommender lower inequality without lowering fidelity to true taste?** I think it can lower inequality without making the outcome true taste less well.
 
 ## Part 1. Users on their own
 
